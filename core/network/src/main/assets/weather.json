@@ -1,0 +1,43 @@
+{
+  "coord": {
+    "lon": -73.9662,
+    "lat": 40.7834
+  },
+  "weather": [
+    {
+      "id": 721,
+      "main": "Haze",
+      "description": "haze",
+      "icon": "50d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 83.71,
+    "feels_like": 88.11,
+    "temp_min": 77.61,
+    "temp_max": 88.72,
+    "pressure": 1013,
+    "humidity": 64
+  },
+  "visibility": 8047,
+  "wind": {
+    "speed": 10.36,
+    "deg": 170
+  },
+  "clouds": {
+    "all": 0
+  },
+  "dt": 1689634431,
+  "sys": {
+    "type": 1,
+    "id": 5141,
+    "country": "US",
+    "sunrise": 1689586711,
+    "sunset": 1689639903
+  },
+  "timezone": -14400,
+  "id": 5128594,
+  "name": "New York County",
+  "cod": 200
+}

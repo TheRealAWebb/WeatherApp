@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="search">Search</string>
+    <string name="clear_search_text_content_desc">Clear search text</string>
+    <string name="search_result_not_found">Sorry, there are no results from your search \"%1$s\"</string>
+    <string name="search_results">%1$s, %2$s</string>
+    <string name="try_another_search">Try another search</string>
+    <string name="results_format" >Cities, States </string>
+    <string name="current_location_icon">Current location icon</string>
+    <string name="search_text_field_tag">searchTextField</string>
+</resources>

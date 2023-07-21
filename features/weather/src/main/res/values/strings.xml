@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="search_button_tag">searchButtonTag</string>
+    <string name="the_temp_in_city">The temperature in %s, %s is %s°F</string>
+    <string name="error">Error %s</string>
+    <string name="loading">Loading</string>
+    <string name="search_icon">Search icon</string>
+</resources>

@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Queens County",
+    "local_names": {
+      "en": "Queens County",
+      "ru": "округ Куинс"
+    },
+    "lat": 40.7135078,
+    "lon": -73.8283132,
+    "country": "US",
+    "state": "New York"
+  },
+  {
+    "name": "Queens",
+    "local_names": {
+      "en": "Queens",
+      "he": "קווינס",
+      "ru": "Куинс"
+    },
+    "lat": 40.7135078,
+    "lon": -73.8283132,
+    "country": "US",
+    "state": "New York"
+  },
+  {
+    "name": "Queens",
+    "lat": 38.8570477,
+    "lon": -80.1367447,
+    "country": "US",
+    "state": "West Virginia"
+  },
+  {
+    "name": "Queens",
+    "lat": 46.8448397,
+    "lon": -96.7525421,
+    "country": "US",
+    "state": "Minnesota"
+  },
+  {
+    "name": "Queens",
+    "lat": 38.6336862,
+    "lon": -83.4387996,
+    "country": "US",
+    "state": "Kentucky"
+  }
+]
