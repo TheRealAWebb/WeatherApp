@@ -12,9 +12,8 @@ import javax.inject.Inject
 @HiltViewModel
 class MainActivityViewModel @Inject constructor(
     private val userDataRepository: UserDataRepository,
-)
+) : ViewModel() {
 
-    : ViewModel() {
     val shouldShowSearch = userDataRepository.userData
         .map {
             it.state.isEmpty()

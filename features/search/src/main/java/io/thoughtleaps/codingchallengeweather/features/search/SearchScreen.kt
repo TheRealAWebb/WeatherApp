@@ -85,7 +85,6 @@ internal fun SearchScreen(
     onComplete: () -> Unit = {},
     onSearchResultClicked: (GeoModel) -> Unit = {},
     onSearchQueryChanged: (String) -> Unit = {},
-    onSearchTriggered: (String) -> Unit = {},
     onUseMyLocationClicked: () -> Unit = {},
     searchQuery: String = "",
     searchResultUiState: SearchResultUiState = SearchResultUiState.Loading,
@@ -96,7 +95,6 @@ internal fun SearchScreen(
         SearchToolbar(
             onUseMyLocationClicked = onUseMyLocationClicked,
             onSearchQueryChanged = onSearchQueryChanged,
-            onSearchTriggered = onSearchTriggered,
             searchQuery = searchQuery,
         )
         when (locationResultUiState) {

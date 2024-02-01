@@ -33,13 +33,12 @@ fun WeatherNavHost(
             navController.navigateToSearch(
                 NavOptions.Builder()
                     .build()
-
             )
         }
         searchScreen {
             navController.navigateToWeather(
                 NavOptions.Builder()
-                    .setPopUpTo(searchRoute,true)
+                    .setPopUpTo(searchRoute, true)
                     .setLaunchSingleTop(true)
                     .build()
             )

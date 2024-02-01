@@ -41,10 +41,8 @@ class SearchViewModel @Inject constructor(
 
     val searchQuery = savedStateHandle.getStateFlow(SEARCH_QUERY, "")
 
-    private val locationLatitude: StateFlow<Double?> =
-        savedStateHandle.getStateFlow(LOCATION_LATITUDE, null)
-    private val locationLon: StateFlow<Double?> =
-        savedStateHandle.getStateFlow(LOCATION_LONGITUDE, null)
+    private val locationLatitude: StateFlow<Double?> = savedStateHandle.getStateFlow(LOCATION_LATITUDE, null)
+    private val locationLon: StateFlow<Double?> = savedStateHandle.getStateFlow(LOCATION_LONGITUDE, null)
 
     val searchResultUiState: StateFlow<SearchResultUiState> = searchQuery
         // Used TO Throttle REQUEST
@@ -128,7 +126,6 @@ class SearchViewModel @Inject constructor(
                         savedStateHandle[LOCATION_LATITUDE] = it.data.latitude
                         savedStateHandle[LOCATION_LONGITUDE] = it.data.longitude
                     }
-
                     is Error -> {}
                     is Loading -> {}
                 }
