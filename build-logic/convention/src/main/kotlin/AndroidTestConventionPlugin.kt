@@ -1,4 +1,3 @@
-
 import com.android.build.gradle.TestExtension
 import io.thoughtleaps.samples.codingchallengeweather.configureGradleManagedDevices
 import io.thoughtleaps.samples.codingchallengeweather.configureKotlinAndroid

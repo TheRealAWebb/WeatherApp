@@ -1,5 +1,3 @@
-
-
 dependencyResolutionManagement {
     repositories {
         google()

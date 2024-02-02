@@ -1,4 +1,3 @@
-
 import com.android.build.api.variant.LibraryAndroidComponentsExtension
 import io.thoughtleaps.samples.codingchallengeweather.configureJacoco
 import org.gradle.api.Plugin

@@ -1,4 +1,3 @@
-
 import com.android.build.api.variant.LibraryAndroidComponentsExtension
 import com.android.build.gradle.LibraryExtension
 import io.thoughtleaps.samples.codingchallengeweather.configureGradleManagedDevices

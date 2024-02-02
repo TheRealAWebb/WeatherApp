@@ -1,5 +1,3 @@
-
-
 package io.thoughtleaps.samples.codingchallengeweather
 
 import org.gradle.api.Project

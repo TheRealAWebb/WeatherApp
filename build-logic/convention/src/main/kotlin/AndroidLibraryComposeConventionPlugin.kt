@@ -1,4 +1,3 @@
-
 import com.android.build.gradle.LibraryExtension
 import io.thoughtleaps.samples.codingchallengeweather.configureAndroidCompose
 import org.gradle.api.Plugin

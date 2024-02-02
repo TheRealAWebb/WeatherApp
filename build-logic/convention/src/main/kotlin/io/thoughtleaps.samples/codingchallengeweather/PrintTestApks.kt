@@ -1,4 +1,3 @@
-
 package io.thoughtleaps.samples.codingchallengeweather
 
 import com.android.build.api.artifact.SingleArtifact

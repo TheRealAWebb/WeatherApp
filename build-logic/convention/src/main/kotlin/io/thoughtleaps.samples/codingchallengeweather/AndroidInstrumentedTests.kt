@@ -1,5 +1,3 @@
-
-
 package io.thoughtleaps.samples.codingchallengeweather
 
 import com.android.build.api.variant.LibraryAndroidComponentsExtension
